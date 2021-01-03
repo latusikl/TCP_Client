@@ -56,6 +56,6 @@ public class Main
 
     private static void printFromServer(final String line)
     {
-        System.err.println("Server: " + line);
+        System.err.print(line);
     }
 }
